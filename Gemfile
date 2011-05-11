@@ -4,10 +4,12 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 
 group :development, :test do
+  gem 'nifty-generators'
   gem 'unicorn'
   gem 'heroku'
   gem 'rspec-rails'
   gem 'jquery-rails'
+  gem "mocha"
 end
 
 # Use unicorn as the web server
